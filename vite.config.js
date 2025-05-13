@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    allowedHosts: "notes.zyphenvisuals.com"
+    allowedHosts: ["notes.zyphenvisuals.com"]
   }
 })
